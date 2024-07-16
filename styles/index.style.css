@@ -10,6 +10,7 @@
     font-family: "Inter", sans-serif;
     font-size: 12px;
 
+    --p-x5s: .5rem;
     --p-x2s: .25rem;
     --p-xs: .875rem;
     --p-sm: 1rem;
@@ -24,6 +25,7 @@
 
     --color-gray: #828A93;
     --color-light-purple: #937CE6;
+    --color-light-gray: #e3e3e4;
 
     --background-gradient-ptp: linear-gradient(90deg, #A430FF 0%, #F318AD 49.74%, #FF2171 100%);
 }
@@ -99,6 +101,10 @@ main {
     font-weight: 700;
 }
 
+.display__main:empty::before{
+    content: attr(data-value);
+}
+
 .calculator__divider {
     background: var(--background-gradient-ptp);
     width: 100%;
@@ -135,6 +141,17 @@ main {
     border: 3px solid var(--color-light-purple);
     border-radius: 1.5rem;
     color: var(--color-light-purple);
+    cursor: pointer;
+}
+
+.action__result:empty::before{
+    content: attr(data-value-reuse);
+}
+
+.button__activated{
+    background-color: var(--color-light-gray);
+    padding: var(--p-x2s) var(--p-x5s);
+    border-radius: 15%;
 }
 
 .calculator__buttons {

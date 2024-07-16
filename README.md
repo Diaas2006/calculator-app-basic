@@ -19,13 +19,13 @@ Para acessar o figma [clique aqui](https://www.figma.com/design/qTcgGtwubL6ohQjF
 ## Funcionalidades:
 
 - Operações aritiméticas:
-  - Deve ser possível realizar a operação de **somar** (+);
-  - Deve ser possível realizar a operação de **subtrair** (-);
-  - Deve ser possível realizar a operação de **multiplicar** (*);
-  - Deve ser possível realizar a operação de **dividir** (/);
-  - Deve ser possível realizar a operação de **porcentagem** (%);
-  - Deve ser possível realizar a operação de **troca de sinais** (+/-);
-  - Deve ser possível realizar essas **operações em cadeia**;
+  - Deve ser possível realizar a operação de **somar** (+); ✅
+  - Deve ser possível realizar a operação de **subtrair** (-); ✅
+  - Deve ser possível realizar a operação de **multiplicar** (*); ✅
+  - Deve ser possível realizar a operação de **dividir** (/); ✅
+  - Deve ser possível realizar a operação de **porcentagem** (%); ✅
+  - Deve ser possível realizar a operação de **troca de sinais** (+/-); ✅
+  - Deve ser possível realizar essas **operações em cadeia**; 
   - Deve ser possível concatenar **uma ou mais operações**;
 - Gestão de histórico de operações:
   - Deve ser possível **observar o histórico** de operações aritméticas;
@@ -34,8 +34,8 @@ Para acessar o figma [clique aqui](https://www.figma.com/design/qTcgGtwubL6ohQjF
   - Deve ser possível ter uma **versão da aplicação no modo escuro**; ✅
   - Deve ser possível ter uma **versão da aplicação no modo claro**; ✅
 - Limpar o visor:
-  - Deve ser possível **limpar o visor da tela**;
+  - Deve ser possível **limpar o visor da tela**; ✅
 - Reutilizar os valores resultantes:
-  - Deve ser possível  **reutilizar o valor que foi resultado de uma operação**;
+  - Deve ser possível  **reutilizar o valor que foi resultado de uma operação**; ✅
 
 > As funcionalidades são de caráter **obrigatório** para o funcionamento correto da aplicação.
